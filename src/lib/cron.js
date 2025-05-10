@@ -13,6 +13,7 @@ const job=new cron.CronJob("*/14 * * * *", function () {
 export default job;
 
 //CRON JOB EXPLANATION
+//This is the cron job that will run every 14 minutes.
 //CRON jobs are scheduled tasks that run at specific intervals. 
 // They are often used for tasks like sending emails, cleaning up databases, or performing regular 
 // maintenance. In this case, we are using a cron job to check for expired tokens in the database
